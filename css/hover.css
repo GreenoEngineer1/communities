@@ -1,0 +1,38 @@
+/* CSS3 STYLE GENERIC */
+.view {
+   width:250px;
+	  min-height: 230px;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   cursor: default;
+	 -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin:47px 46px 0 46px;
+	float:left;
+}
+.view .mask, .view .content {
+   width: 250px;
+   min-height: 230px;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+	 text-align: center;
+
+}
+.view img {
+	    text-align: center;
+
+}
+.view a.info {
+   background:url(../img/link.png) center no-repeat;
+   display: inline-block;
+   text-decoration: none;
+   padding:0;
+   text-indent:-9999px;
+   width:20px;
+   height:20px;
+	 text-align: center;
+}
