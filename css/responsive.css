@@ -18,11 +18,11 @@
 }
 @media (min-width: 401px) and (max-width: 749px) {
 .outer{
-	width:100%;
+	width:550px;
 	margin:auto;
 }
 .cont_outer{
-	width:100%;
+	width:550px;
 	min-height:900px;
 	margin:auto;
 	float:left;
