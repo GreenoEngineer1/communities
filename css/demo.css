@@ -10,37 +10,17 @@ html
 
 body
 {
-	background-color: #fff;
-	font-family: Arial, Helvetica, Verdana;
-	font-size: 14px;
+	font-family: 'Gotham Medium';
+	font-size: 20px;
 	line-height: 22px;
-	color: #666;
-	min-height: 100%;
-	position: relative;
-	-webkit-text-size-adjust: none;
+	color: #FFF;
 }
 body *
 {
 	text-shadow: none;
 }
-h1, h2, h3, h4, h5, h6
-{
-	line-height: 1;
-	font-weight: bold;
-	margin: 20px 0 10px 0;
-}
-h1, h2, h3
-{
-	font-size: 18px;
-}
-h4, h5, h6
-{
-	font-size: 16px;
-}
-p
-{
-	margin: 0 0 10px 0;
-}
+
+
 a, a:link, a:active, a:visited, a:hover
 {
 	color: inherit;
@@ -61,14 +41,10 @@ nav:not(.mm-menu)
 .header,
 .footer
 {
-	background: #777;
-	font-size: 16px;
-	font-weight: bold;
-	color: #fff;
+	background: none;
 	line-height: 40px;
-
 	box-sizing: border-box;	
-	width: 100%;
+	width: 80%;
 	height: 40px;
 	padding: 0 50px;
 }

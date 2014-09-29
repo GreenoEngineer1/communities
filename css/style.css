@@ -338,6 +338,9 @@ h3{
 	color:#FFF;
 	margin:5px 0 0 0;
 }
+.count_res{
+	display:none;
+}
 .chg_lan{
 	width:32px;
 	height:33px;
@@ -354,4 +357,7 @@ h3{
 }
 .chg_lan:hover{
 	color:#051e99;
+}
+.resp_menu{
+	display:none;
 }
