@@ -39,18 +39,37 @@ All Available knowledge & Information about a crop is organized in a multi dimen
 		<link rel="stylesheet" href="css/secondeffect.css" type="text/css" media="screen"/>
     <link rel="stylesheet" type="text/css" href="css/lightwindow.css" />
     <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
-
-
+    <link rel="stylesheet" type="text/css" href="css/jquery.mmenu.all.css">
+    <link rel="stylesheet" type="text/css" href="css/demo.css">
+    
 <!-- JavaScript -->
 	<script type="text/javascript" src="JS/prototype.js"></script>
 	<script type="text/javascript" src="JS/effects.js"></script>
 	<script type="text/javascript" src="JS/lightwindow.js"></script>
-  
+  <script type="text/javascript" src="JS/jquery.mmenu.min.all.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
+  
+<script type="text/javascript">
+		var $s = jQuery.noConflict();
+			$s(function() {
+				$s('nav#menu').mmenu();
+			});
+		</script>
 </head>
 
 <body>
+<div class="header">
+				<a href="#menu"></a>
+			</div>
+			<nav id="menu">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
 <div class="outer">
+			
 	<header>
   		<h1>RainbowAgri<br /><span class="yel_hd">Communities</span></h1>
       <div class="rblg">
