@@ -146,6 +146,11 @@ header{
 .chglang_res:hover{
 	color:#051e99;
 }
+header{
+	height:auto;
+	margin:47px 0 0 auto;
+	width:500px;
+}
 .count_res{
 	display:block;
 	background:#00b5ef;
