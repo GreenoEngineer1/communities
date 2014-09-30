@@ -16,13 +16,13 @@
 	display:none;
 }
 }
-@media (min-width: 401px) and (max-width: 749px) {
+@media (min-width: 490px) and (max-width: 749px) {
 .outer{
-	width:550px;
+	width:510px;
 	margin:auto;
 }
 .cont_outer{
-	width:550px;
+	width:510px;
 	min-height:900px;
 	margin:auto;
 	float:left;
@@ -48,14 +48,19 @@ h1{
 	margin:47px 26px 0 26px;
 	float:left;
 }
-.view .mask, .view .content {
-   width: 200px;
+.view second-effect{
+	width: 200px;
    min-height: 180px;
+}
+.view .mask, .view .content {
+   width: 250px;
+   min-height: 170px;
    position: absolute;
    overflow: hidden;
    top: 0;
    left: 0;
 	 text-align: center;
+	 margin:-30px 0 0 -20px;
 }
 .box_outer{
 	width:200px;
@@ -66,10 +71,78 @@ h1{
 	border-radius: 5px;
 	float:left;
 }
+.box_outer2{
+	width:200px;
+	min-height:200px;
+	background:#49c2bf;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	float:left;
+}
+.box_outer3{
+	width:200px;
+	min-height:200px;
+	background:#7fba42 ;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	float:left;
+}
+.box_outer4{
+	width:200px;
+	min-height:200px;
+	background:#f2f000 ;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	float:left;
+}
+.box_outer5{
+	width:200px;
+	min-height:200px;
+	background:#FFF;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	float:left;
+}
+.box_outer6{
+	width:200px;
+	min-height:200px;
+	background:#ff6000;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	float:left;
+}
 .box_img{
 	width:185px;
 	height:141px;
 	margin:7px auto;
+}
+.box_txt{
+	width:200px;
+	height:44px;
+	margin:auto;
+	font-family:Gotham Medium;
+	font-size:15px;
+	color:#333333;
+	text-align:center;
+}
+.box_txt2{
+	width:200px;
+	height:54px;
+	margin:70px  auto 0 auto;
+	font-family:Gotham Medium;
+	font-size:15px;
+	color:#333333;
+	text-align:center;
+}
+.box_txt3{
+	font-size:20px;
+	color:#333333;
+	text-align:center;
 }
 h1{
 	font-family:Gotham Book;
@@ -158,14 +231,14 @@ header{
 	-moz-border-radius: 9px;
 	border-radius: 9px;
 	padding:10px;
-	float:left;
+	float:right;
 	font-family: 'Gotham Medium';
 	font-size:18px;
 	color:#FFF;
 	margin:20px auto auto 60px;
 }
 }
-@media (min-width: 320px) and (max-width: 400px) {
+@media (min-width: 320px) and (max-width: 489px) {
 .outer{
 	width:360px;
 	margin:auto;
@@ -178,7 +251,7 @@ header{
 }
 h1{
 	font-family:Gotham Book;
-	font-size:37px;
+	font-size:35px;
 	color:#FFF;
 	line-height:38px;
 	margin:auto;
